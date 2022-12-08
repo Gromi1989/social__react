@@ -1,0 +1,31 @@
+.nav {
+    grid-area: n;
+    background: linear-gradient(#000, #262626);
+    padding-top: 40px;
+}
+.item{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.last{
+    padding-top: 30px;
+}
+.item {
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: yellow;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 25px;
+}

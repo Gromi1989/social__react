@@ -1,0 +1,44 @@
+.header {
+    grid-area: h;
+    margin: 3px;
+}
+.header {
+    position: relative;
+    background: linear-gradient(#000, #262626);
+}
+.header:before, .header:after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 500%;
+    z-index: -1;
+    animation: amimate 30s ease infinite;
+}
+
+.header img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+.header:after {
+    filter: blur(25px);
+}
+
+@keyframes amimate {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 300% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

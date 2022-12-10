@@ -4,7 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import store from "./Redax/state";
+import store from "./Redax/redux-store";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,8 +12,8 @@ let rerenderEntireTree = (state) => {
     root.render(
         <React.StrictMode>
             <App state={state}
-                 addPost={store.addPost.bind(store)  }
-                 updateNewPostText={store.updateNewPostText.bind(store)}/>
+                 dispatch={store.dispatch.bind(store)}
+                 store={store}/>
         </React.StrictMode>
     );
 };
@@ -21,7 +21,10 @@ let rerenderEntireTree = (state) => {
 
 rerenderEntireTree(store.getState());
 
-store.subscribe(rerenderEntireTree);
+store.subscribe(()=>{
+    let state = store.getState();
+    rerenderEntireTree(state);
+});
 
 
 reportWebVitals();

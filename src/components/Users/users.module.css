@@ -1,0 +1,27 @@
+.userPhoto{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.usersContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.userInfo{
+    margin-right: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px black;
+    border-radius: 3px;
+}
+.nameStatus{
+    padding-right: 40px;
+
+    margin: 10px;
+}
+.location{
+    margin: 10px;
+}
+

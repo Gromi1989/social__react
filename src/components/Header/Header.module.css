@@ -4,7 +4,7 @@
 }
 .header {
     position: relative;
-    background: linear-gradient(#000, #262626);
+    background: linear-gradient(#4f4e4e, #262626);
 }
 .header:before, .header:after {
     content: '';
@@ -41,4 +41,8 @@
     100% {
         background-position: 0 0;
     }
+}
+
+.loginBlock{
+    float: left;
 }

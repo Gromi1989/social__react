@@ -4,10 +4,10 @@ import Preloader from "../../common/Preloader/Preloader";
 
 
 const ProfileInfo = (props) => {
+
     if (!props.profile){
         return  <Preloader/>
     }
-
     return (
         <div className={classes.content}>
             <div className={classes.blend}>
@@ -18,7 +18,11 @@ const ProfileInfo = (props) => {
             </div>
             <div className={classes.descriptionBlock}>
                 <img src={props.profile.photos.large} />
-                ava + description
+                <div>{props.profile.fullName}</div>
+                <div>{props.profile.aboutMe}</div>
+                <div>{props.profile.contacts.facebook}</div>
+                <div>{props.profile.contacts.github}</div>
+                <div>{props.profile.contacts.instagram}</div>
             </div>
         </div>
     );

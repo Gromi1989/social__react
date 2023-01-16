@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/social__react/static/css/main.ca20d5b8.css",
+    "main.js": "/social__react/static/js/main.49ae88df.js",
+    "static/css/586.ba6823d5.chunk.css": "/social__react/static/css/586.ba6823d5.chunk.css",
+    "static/js/586.fcfacb32.chunk.js": "/social__react/static/js/586.fcfacb32.chunk.js",
+    "static/css/513.1a80a5c2.chunk.css": "/social__react/static/css/513.1a80a5c2.chunk.css",
+    "static/js/513.9a3a86bb.chunk.js": "/social__react/static/js/513.9a3a86bb.chunk.js",
+    "static/js/787.28cb0dcd.chunk.js": "/social__react/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/social__react/index.html",
+    "static/media/Eclipse-0.6s-200px.svg": "/social__react/static/media/Eclipse-0.6s-200px.2fd46031f75827eaffdb0c2079c74e3c.svg",
+    "main.ca20d5b8.css.map": "/social__react/static/css/main.ca20d5b8.css.map",
+    "main.49ae88df.js.map": "/social__react/static/js/main.49ae88df.js.map",
+    "586.ba6823d5.chunk.css.map": "/social__react/static/css/586.ba6823d5.chunk.css.map",
+    "586.fcfacb32.chunk.js.map": "/social__react/static/js/586.fcfacb32.chunk.js.map",
+    "513.1a80a5c2.chunk.css.map": "/social__react/static/css/513.1a80a5c2.chunk.css.map",
+    "513.9a3a86bb.chunk.js.map": "/social__react/static/js/513.9a3a86bb.chunk.js.map",
+    "787.28cb0dcd.chunk.js.map": "/social__react/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca20d5b8.css",
+    "static/js/main.49ae88df.js"
+  ]
+}
